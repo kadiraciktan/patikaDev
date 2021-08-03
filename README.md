@@ -7,3 +7,6 @@
 
 ## Ucus Yonetim
 ![ucusyonetim](https://user-images.githubusercontent.com/17720668/128053373-3ef7a81a-0bea-41be-876e-ad33d92f19da.png)
+
+## Film Sistemi
+![filmsistemi](https://user-images.githubusercontent.com/17720668/128055743-f414ff12-d1e9-4488-8ac0-3dc514c092fb.png)
