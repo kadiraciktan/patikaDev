@@ -10,3 +10,7 @@
 
 ## Film Sistemi
 ![filmsistemi](https://user-images.githubusercontent.com/17720668/128055743-f414ff12-d1e9-4488-8ac0-3dc514c092fb.png)
+
+## Asansor Simulasyonu : 
+![Asansor](https://user-images.githubusercontent.com/17720668/128059035-2976cd50-e1a6-4efb-96e7-7198a61e57da.png)
+
