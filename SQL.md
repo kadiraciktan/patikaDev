@@ -288,6 +288,31 @@ SELECT customer.first_name,customer.last_name,rental.rental_id from  rental FULL
 ~~~
 
 
+## Ödev 11 
+
+#### 1
+~~~sql
+(SELECT first_name FROM customer) UNION ALL (SELECT first_name FROM customer)
+~~~
+
+#### 2
+~~~sql
+ (SELECT first_name FROM customer) INTERSECT  (SELECT first_name FROM customer)
+~~~
+
+#### 3
+~~~sql
+(SELECT first_name FROM customer) UNION  (SELECT first_name FROM customer)
+~~~
+
+#### 4
+~~~sql
+  (SELECT first_name FROM customer) UNION ALL (SELECT first_name FROM customer)
+  (SELECT first_name FROM customer) INTERSECT ALL  (SELECT first_name FROM customer)
+  (SELECT first_name FROM customer) UNION ALL  (SELECT first_name FROM customer)
+~~~
+
+
 
 
 
