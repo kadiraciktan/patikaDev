@@ -128,13 +128,13 @@ SELECT AVG(rental_rate) FROM film
 
 #### 2
 ~~~sql
-SELECT * FROM film  WHERE title LIKE 'C%'
+SELECT COUNT(*) FROM film  WHERE title LIKE 'C%'
 ~~~
 
 
 #### 3
 ~~~sql
-SELECT * FROM film WHERE  rental_rate=0.99 ORDER BY length DESC LIMIT 1
+SELECT Max(length) FROM film WHERE  rental_rate=0.99 
 ~~~
 
 #### 4
