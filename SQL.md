@@ -66,3 +66,36 @@ SELECT * from film WHERE title Like 'C%' AND length>90 AND rental_rate=2.99
 ~~~
 
 
+## Ödev 4 :
+
+#### 1 
+~~~sql
+SELECT DISTINCT replacement_cost FROM film
+~~~
+
+#### 2
+~~~sql
+SELECT COUNT(DISTINCT replacement_cost) FROM film
+~~~
+
+#### 3
+
+~~~sql
+SELECT COUNT(*) from film WHERE title LIKE 'T%' AND rating='G'
+~~~
+
+#### 4
+
+~~~sql
+SELECT COUNT(*) from country WHERE country LIKE '_____'
+~~~
+
+
+
+#### 5
+
+~~~sql
+SELECT COUNT(*) from city WHERE city LIKE '%r'
+~~~
+
+
