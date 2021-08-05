@@ -119,6 +119,31 @@ SELECT * from film WHERE title LIKE '%n' ORDER BY length ASC LIMIT 5 OFFSET 5
 SELECT * FROM Customer WHERE store_id=1  ORDER BY last_name DESC LIMIT 4
 ~~~
 
+## Ödev 6
+
+#### 1
+~~~sql
+SELECT AVG(rental_rate) FROM film 
+~~~
+
+#### 2
+~~~sql
+SELECT * FROM film  WHERE title LIKE 'C%'
+~~~
+
+
+#### 3
+~~~sql
+SELECT * FROM film WHERE  rental_rate=0.99 ORDER BY length DESC LIMIT 1
+~~~
+
+#### 4
+~~~sql
+SELECT COUNT(DISTINCT replacement_cost) FROM film WHERE length>150
+~~~
+ 
+
+
 
 
 
