@@ -141,7 +141,29 @@ SELECT Max(length) FROM film WHERE  rental_rate=0.99
 ~~~sql
 SELECT COUNT(DISTINCT replacement_cost) FROM film WHERE length>150
 ~~~
- 
+
+## Ödev 7
+
+#### 1
+~~~sql
+SELECT rating from film GROUP BY rating
+~~~
+
+#### 2
+~~~sql
+SELECT COUNT(replacement_cost),replacement_cost from film GROUP BY replacement_cost HAVING COUNT(replacement_cost)>50
+~~~
+
+
+#### 3
+~~~sql
+SELECT store_id,Count(store_id) FROM customer GROUP By store_id
+~~~
+
+#### 4
+~~~sql
+SELECT COUNT(country_id) ,country_id FROM city  GROUP BY country_id ORDER BY COUNT (country_id) DESC LIMIT 1
+~~~
 
 
 
