@@ -312,6 +312,27 @@ SELECT customer.first_name,customer.last_name,rental.rental_id from  rental FULL
   (SELECT first_name FROM customer) EXCEPT ALL  (SELECT first_name FROM actor)
 ~~~
 
+## Ödev 12
+
+#### 1
+~~~sql
+SELECT COUNT(*) FROM film WHERE length > (SELECT AVG(length) from film)
+~~~
+
+#### 2
+~~~sql
+ SELECT COUNT(*) FROM film WHERE rental_rate = (SELECT max(rental_rate) FROM film)
+~~~
+
+#### 3
+~~~sql
+SELECT * FROM film WHERE rental_rate = (SELECT MIN(rental_rate) FROM film) AND replacement_cost = (SELECT MIN(replacement_cost) FROM film)
+~~~
+
+#### 4
+~~~sql
+ SELECT * FROM customer WHERE customer_id IN (SELECT customer_id FROM payment WHERE amount = (SELECT max(amount) from payment))
+~~~
 
 
 
