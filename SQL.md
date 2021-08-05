@@ -252,5 +252,22 @@ DELETE FROM employee WHERE Id='3'
 DELETE FROM employee WHERE birthday BETWEEN '1996/01/01' AND '2000/01/01'
 ~~~
 
+## Ödev 9
+
+#### 1
+~~~sql
+SELECT city.city,country.country from  city INNER JOIN country ON city.country_id= country.country_id
+~~~
+
+#### 2
+~~~sql
+SELECT customer.first_name,customer.last_name,payment.payment_id from  payment INNER JOIN customer ON payment.customer_id=customer.customer_id
+~~~
+
+#### 3
+~~~sql
+SELECT customer.first_name,customer.last_name,rental.rental_id from  rental INNER JOIN customer ON rental.customer_id=customer.customer_id
+~~~
+
 
 
